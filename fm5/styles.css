@@ -1,0 +1,51 @@
+body{
+    background-color: #19a1ad;
+    display: flex;
+}
+.bgtop{
+    position: absolute;
+    
+    top: -70%;
+    left: -70%;
+    transform: translatex(70%);
+    z-index: -1;
+}
+.bgbot{
+    position: absolute;
+    bottom: -70%;
+    right: -70%;
+    transform: translatex(-70%);
+    z-index: -1;
+}
+  .card{
+    position: absolute;
+    text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  height: 420px;
+      width: 350px;
+      border-radius: 25px;
+      background-color: #fff;
+  }
+  .victor{
+      position: relative;
+      top: -50px;
+      border-radius: 50%;
+      border: 5px solid white;
+  }
+  .content{
+      position: relative;
+      top: -40px;
+  }
+
+  p{
+      position: relative;
+      top: -10px;
+  }
+  .botcon{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-top: 1px solid gray;
+  }
